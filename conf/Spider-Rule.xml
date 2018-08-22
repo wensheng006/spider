@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sites>
+	<site>
+		<title>顶点小说</title>
+		<charset>GBK</charset>
+		<url>http://www.23wx.com</url>
+		<chapter-list-selector>#at td a</chapter-list-selector>
+		<chapter-detail-title-selector>#amain h1,0</chapter-detail-title-selector>
+		<chapter-detail-content-selector>#contents</chapter-detail-content-selector>
+		<chapter-detail-prev-selector>#footlink a</chapter-detail-prev-selector>
+		<chapter-detail-next-selector>#footlink a,2</chapter-detail-next-selector>
+	</site>
+		<site>
+		<title>笔趣阁</title>
+		<charset>UTF-8</charset>
+		<url>http://www.xs.la</url>
+		<book-name>#info h1</book-name>
+		<chapter-list-selector>#list dd a</chapter-list-selector>
+		<chapter-detail-title-selector>.bookname h1</chapter-detail-title-selector>
+		<chapter-detail-content-selector>#content</chapter-detail-content-selector>
+		<chapter-detail-prev-selector>#pager_prev</chapter-detail-prev-selector>
+		<chapter-detail-next-selector>#pager_next</chapter-detail-next-selector>
+	</site>
+	
+	<site>
+		<title>笔趣阁2</title>
+		<charset>UTF-8</charset>
+		<url>https://www.biquke.com</url>
+		<book-name>#info h1</book-name>
+		<chapter-list-selector>#list dd a</chapter-list-selector>
+		<chapter-detail-title-selector>.bookname h1</chapter-detail-title-selector>
+		<chapter-detail-content-selector>#content</chapter-detail-content-selector>
+		<chapter-detail-prev-selector>#pager_prev</chapter-detail-prev-selector>
+		<chapter-detail-next-selector>#pager_next</chapter-detail-next-selector>
+	</site>
+	
+	<site>
+		<title>看书中</title>
+		<charset>GBK</charset>
+		<url>http://www.kanshuzhong.com</url>
+		<chapter-list-selector>.bookcontent dd a</chapter-list-selector>
+		<chapter-detail-title-selector>#nr1 .ctitle</chapter-detail-title-selector>
+		<chapter-detail-content-selector>.textcontent</chapter-detail-content-selector>
+		<chapter-detail-prev-selector>.readlink a,1</chapter-detail-prev-selector>
+		<chapter-detail-next-selector>.readlink a,3</chapter-detail-next-selector>
+	</site>
+	<site>
+		<title>笔下文学</title>
+		<charset>GBK</charset>
+		<url>http://www.bxwx8.org</url>
+		<!--chapter-list-selector 章节列表的url
+		    chapter-detail-title-selector  章节详情的 章节名
+		   chapter-detail-content-selector  章节详情的 章节内筒
+		    -->
+		<chapter-list-selector>#TabCss dd a</chapter-list-selector>
+		<chapter-detail-title-selector>#title</chapter-detail-title-selector>
+		<chapter-detail-content-selector>#content</chapter-detail-content-selector>
+		<chapter-detail-prev-selector>#footlink a,2</chapter-detail-prev-selector>
+		<chapter-detail-next-selector>#footlink a,4</chapter-detail-next-selector>
+	</site>
+	
+	   <site>
+		<title>凤舞文学网</title>
+		<charset>GBK</charset>
+		<url>http://www.qiuwu.net</url>
+		<book-name>h1</book-name>
+		<chapter-list-selector>.dir_main_section ol li a</chapter-list-selector>
+		<chapter-detail-title-selector>.bname_content</chapter-detail-title-selector>
+		<chapter-detail-content-selector>#content</chapter-detail-content-selector>
+		<chapter-detail-prev-selector>#pager_prev</chapter-detail-prev-selector>
+		<chapter-detail-next-selector>#pager_next</chapter-detail-next-selector>
+	</site> 
+	
+	
+	
+	
+<!-- 	  <site>
+		<title>努努书坊</title>
+		<charset>gb2312</charset>
+		<url>http://www.kanunu8.com</url>
+		<book-name>h1 font</book-name>
+		<chapter-list-selector>table[cellpadding='8'] tr td a</chapter-list-selector>
+		<chapter-detail-title-selector>table tr td[width='880'] font</chapter-detail-title-selector>
+		<chapter-detail-content-selector>table tr p</chapter-detail-content-selector>
+		<chapter-detail-prev-selector>#pager_prev</chapter-detail-prev-selector>
+		<chapter-detail-next-selector>#pager_next</chapter-detail-next-selector>
+	</site>  -->
+
+	<site>
+		<title>努努书坊</title>
+			<!-- http://www.kanunu8.com/files/chinese/201101/1009.html 这种形式的索引页面 -->
+		<charset>gb2312</charset>
+		<url>http://www.kanunu8.com</url>
+		<book-name>table h2 b</book-name>
+		<chapter-list-selector>table[cellpadding='8'] tr td a</chapter-list-selector>
+		<chapter-detail-title-selector>table tr td[width='880'] font</chapter-detail-title-selector>
+	<!-- 	<chapter-detail-content-selector>div[align='justify']</chapter-detail-content-selector> -->
+			<chapter-detail-content-selector>table tr p</chapter-detail-content-selector>
+		<chapter-detail-prev-selector>#pager_prev</chapter-detail-prev-selector>
+		<chapter-detail-next-selector>#pager_next</chapter-detail-next-selector>
+	</site> 
+	
+	
+ 		<site>
+		<title>简书</title>
+		<charset>utf-8</charset>
+		<url>https://www.jianshu.com/</url>
+		<book-name>.title .name</book-name>
+		<chapter-list-selector>a[class=title]</chapter-list-selector>
+		<chapter-list-content>.content</chapter-list-content>
+		<chapter-detail-title-selector>h1[class=title]</chapter-detail-title-selector>
+		<chapter-detail-content-selector>.show-content-free</chapter-detail-content-selector>
+		<likes-count-selector>.meta span</likes-count-selector>	
+		<userinfo-selector>.meta-block p</userinfo-selector>	
+	</site> 
+	
+	
+	
+	
+</sites>
