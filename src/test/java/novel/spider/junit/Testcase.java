@@ -69,7 +69,7 @@ public class Testcase {
 		INovelDownload download = new NovelDownload(); 
 		Configuration config = new Configuration();
 		String path ="D:/1_1";
-		String url= "https://www.biquke.com/bq/3/3714/";  
+		String url= "https://www.biquke.com/bq/43/43961/";  
 		config.setPath(path);
 		config.setSize(40);
 		config.setTryTimes(3);

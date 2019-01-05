@@ -75,7 +75,7 @@ public final class NovelSpiderUtil {
 	public static void multiFileMerge(String path, String mergeToFile, boolean deleteThisFile) {
 		mergeToFile = mergeToFile == null ? path + "/merge.txt" : mergeToFile;
 		File[] files = new File(path).listFiles(new FilenameFilter() {
-			@Override
+			@Override 
 			public boolean accept(File dir, String name) {
 				return name.endsWith(".txt");
 			}
